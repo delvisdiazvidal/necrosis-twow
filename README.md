@@ -1,6 +1,4 @@
-This is fork of 1.5.2a of Necrosis LdC addon for Turtle WoW server
+This is fork of 1.5.3 of Necrosis LdC addon for Turtle WoW server
 
 # Changes
-
-Removed init dialog options (en only)
-Updated shard counting and Fel Domination CD tracking ( pylebecq )
+Add Spanish Version
