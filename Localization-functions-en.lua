@@ -1,13 +1,13 @@
 ------------------------------------------------------------------------------------------------------
 -- Necrosis LdC
 --
--- Créateur initial (US) : Infernal (http://www.revolvus.com/games/interface/necrosis/)
--- Implémentation de base (FR) : Tilienna Thorondor
+-- Crï¿½ateur initial (US) : Infernal (http://www.revolvus.com/games/interface/necrosis/)
+-- Implï¿½mentation de base (FR) : Tilienna Thorondor
 -- Reprise du projet : Lomig & Nyx des Larmes de Cenarius, Kael'Thas
 --
--- Skins et voix Françaises : Eliah, Ner'zhul
+-- Skins et voix Franï¿½aises : Eliah, Ner'zhul
 -- Version Allemande par Arne Meier et Halisstra, Lothar
--- Remerciements spéciaux pour Sadyre (JoL)
+-- Remerciements spï¿½ciaux pour Sadyre (JoL)
 -- Version 06.05.2006-1
 ------------------------------------------------------------------------------------------------------
 
@@ -26,13 +26,13 @@ NECROSIS_ANTI_FEAR_SPELL = {
 	["Buff"] = {
 		"Fear Ward",			-- Dwarf priest racial trait
 		"Will of the Forsaken",		-- Forsaken racial trait
-		"Fearless",			-- Trinket
+		"Fearless",				-- Trinket
 		"Berzerker Rage",		-- Warrior Fury talent
 		"Recklessness",			-- Warrior Fury talent
 		"Death Wish",			-- Warrior Fury talent
 		"Bestial Wrath",		-- Hunter Beast Mastery talent (pet only)
 		"Ice Block",			-- Mage Ice talent
-		"Divine Protection",		-- Paladin Holy buff
+		"Divine Protection",	-- Paladin Holy buff
 		"Divine Shield",		-- Paladin Holy buff
 		"Tremor Totem",			-- Shaman totem
 		"Abolish Magic"			-- Majordomo (NPC) spell
@@ -148,21 +148,21 @@ NECROSIS_SPELL_TABLE = {
 -- Type 1 = Timer permanent principal
 -- Type 2 = Timer permanent
 -- Type 3 = Timer de cooldown
--- Type 4 = Timer de malédiction
+-- Type 4 = Timer de malï¿½diction
 -- Type 5 = Timer de combat
 
 NECROSIS_ITEM = {
-	["Soulshard"] = "Soul Shard",
-	["Soulstone"] = "Soulstone",
-	["Healthstone"] = "Healthstone",
-	["Spellstone"] = "Spellstone",
-	["Firestone"] = "Firestone",
-	["Offhand"] = "Held In Off-hand",
-	["Twohand"] = "Two-Hand",
-	["InfernalStone"] = "Infernal Stone",
-	["DemoniacStone"] = "Demonic Figurine",
-	["Hearthstone"] = "Hearthstone",
-	["SoulPouch"] = {"Soul Pouch", "Felcloth Bag", "Core Felcloth Bag"}	
+	["Soulshard"] 		= "Soul Shard",
+	["Soulstone"] 		= "Soulstone",
+	["Healthstone"] 	= "Healthstone",
+	["Spellstone"] 		= "Spellstone",
+	["Firestone"] 		= "Firestone",
+	["Offhand"] 		= "Held In Off-hand",
+	["Twohand"] 		= "Two-Hand",
+	["InfernalStone"] 	= "Infernal Stone",
+	["DemoniacStone"] 	= "Demonic Figurine",
+	["Hearthstone"] 	= "Hearthstone",
+	["SoulPouch"] 		= {"Soul Pouch", "Felcloth Bag", "Core Felcloth Bag"}	
 };
 
 

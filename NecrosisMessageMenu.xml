@@ -115,7 +115,7 @@
 			</Layer>
 		</Layers>
 		<Frames>
-		<Slider name="NecrosisLanguage_Slider" inherits="OptionsSliderTemplate" minValue="1" maxValue="3" valueStep="1" virtual="true">
+		<Slider name="NecrosisLanguage_Slider" inherits="OptionsSliderTemplate" minValue="1" maxValue="4" valueStep="1" virtual="true">
 				<Size>
 					<AbsDimension x="150" y="16"/>
 				</Size>
@@ -133,6 +133,8 @@
 							GameTooltip:SetText("Francais");
 						elseif (this:GetValue() == 2) then
 							GameTooltip:SetText("English");
+						elseif (this:GetValue() == 3) then
+							GameTooltip:SetText("Español");
 						else
 							GameTooltip:SetText("Deutsch");
 						end
@@ -147,6 +149,10 @@
 							GameTooltip:SetText("English");
 							NecrosisConfig.NecrosisLanguage = "enUS";
 							Necrosis_Localization_Dialog_En();
+						elseif (this:GetValue() == 3) then
+							GameTooltip:SetText("Español");
+							NecrosisConfig.NecrosisLanguage = "esEs";
+							Necrosis_Localization_Dialog_Es();
 						else
 							GameTooltip:SetText("Deutsch");
 							NecrosisConfig.NecrosisLanguage = "deDE";
