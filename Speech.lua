@@ -227,15 +227,13 @@ function Necrosis_Localization_Speech_Es()
 		-- Caminante del Vacío
 		[2] = {
 			[1] = {
-				"Camina delante de mi para recibir el castigo...",
-				"<pet>, invoco tu fuerza. Protéjeme.",
+				"Camina delante de mi, recibe mi castigo <pet>, te invoco, Demonio del Vacío!",
 			},
 			[2] = {
-				"Por el poder vil ¡<pet>! Te invoco!", 
-				"¡Destruye a todo a tu paso por mí!",
+				"Por el poder vil ¡<pet>! Te invoco! ¡Destruye a todo a tu paso por mí!",
 			},
 		};
-		-- Súcubo
+		-- Succubus
 		[3] = {
 			[1] = {
 				"Ven a mí, <pet>... Tu látigo y tus gemidos me serán útiles otra vez.",
@@ -250,12 +248,10 @@ function Necrosis_Localization_Speech_Es()
 		-- Demonio desconocido (invocaciones iniciales)
 		[5] = {
 			[1] = {
-				"Sí, juego con fuerzas prohibidas... Observad.",
-				"Con un gesto y un susurro... el Infierno responde. ¿Lo dudáis?",
+				"Sí, juego con fuerzas prohibidas... Observad. Con un gesto y un susurro... el Infierno responde. ¿Lo dudáis?",
 			},
 			[2] = {
-				"Odiadme si queréis. Yo tengo aliados más allá del velo...",
-				"¡SURGE, BESTIA DE FUEGO Y PESADILLA!",
+				"Odiadme si queréis. Yo tengo aliados más allá del velo... ¡SURGE, BESTIA DE FUEGO Y PESADILLA!",
 			},
 		};
 		-- Corcel
@@ -270,8 +266,12 @@ function Necrosis_Localization_Speech_Es()
 	};
 
 	NECROSIS_SHORT_MESSAGES = {
-		{{"--> <target> lleva el Sello de la Piedra de Alma (30 min) <--"}},
-		{{"<TP> Abriendo Portal para <target>. Tocadlo, mortales. <TP>"}},
+		[1] = {
+			"<target> ha sido bendecido con el poder de la Resurrección.",
+		},
+		[2]= {
+			"<TP> Abriendo Portal para <target>. Tocadlo, mortales. <TP>",
+		},
 	};
 
 end

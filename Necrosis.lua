@@ -831,6 +831,7 @@ function Necrosis_SpellManagement()
 				TPMess = tempnum;
 				for i = 1, table.getn(NECROSIS_INVOCATION_MESSAGES[tempnum]) do
 					Necrosis_Msg(Necrosis_MsgReplace(NECROSIS_INVOCATION_MESSAGES[tempnum][i], SpellTargetName), "WORLD");
+					Necrosis_Msg(Necrosis_MsgReplace(NECROSIS_INVOCATION_MESSAGES[tempnum][i], SpellTargetName), "SAY");
 				end
 		-- Pour les autres sorts cast�s, tentative de timer si valable
 		else
@@ -1045,7 +1046,7 @@ function Necrosis_BuildTooltip(button, type, anchor)
 			local itemName = tostring(NecrosisTooltipTextLeft6:GetText());
 			GameTooltip:AddLine(NecrosisTooltipData[type].Text[SoulstoneMode]);
 			if string.find(itemName, NECROSIS_TRANSLATION.Cooldown) then
-			GameTooltip:AddLine(itemName);
+				GameTooltip:AddLine(itemName);
 			end
 		-- Pierre de vie
 		elseif (type == "Healthstone") then
@@ -1077,11 +1078,12 @@ function Necrosis_BuildTooltip(button, type, anchor)
 			end
 		-- Pierre de feu
 		elseif (type == "Firestone") then
+			
 			-- Idem, mais sans le cooldown
 			if FirestoneMode == 1 then
 				GameTooltip:AddLine(NECROSIS_SPELL_TABLE[StoneIDInSpellTable[4]].Mana.." Mana");
 			end
-			GameTooltip:AddLine(NecrosisTooltipData[type].Text[FirestoneMode]);
+			 	GameTooltip:AddLine(NecrosisTooltipData[type].Text[FirestoneMode]);
 		end
 	-- ..... pour le bouton des Timers
 	elseif (type == "SpellTimer") then
@@ -1308,6 +1310,7 @@ function Necrosis_UpdateIcons()
 			RezMess = tempnum;
 			for i = 1, table.getn(NECROSIS_SOULSTONE_ALERT_MESSAGE[tempnum]) do
 				Necrosis_Msg(Necrosis_MsgReplace(NECROSIS_SOULSTONE_ALERT_MESSAGE[tempnum][i], SoulstoneTarget), "WORLD");
+				Necrosis_Msg(Necrosis_MsgReplace(NECROSIS_SOULSTONE_ALERT_MESSAGE[tempnum][i], SoulstoneTarget), "SAY");
 			end
 			SoulstoneAdvice = false;
 		end
@@ -2302,8 +2305,12 @@ function Necrosis_UseItem(type,button)
 				Necrosis_Msg(NECROSIS_MESSAGE.Error.NoFireStoneSpell, "USER");
 			end
 		-- Si la pierre existe, un clic droit l'�quipe / la d�s�quiper
-		elseif button ~= "LeftButton" then
-			Necrosis_SwitchOffHand(type);
+		elseif (FirestoneMode == 2) then
+			if (PlayerCombat) then
+				Necrosis_Msg(NECROSIS_MESSAGE.Error.FireStoneSpellInCombat, "USER");
+			else
+				UseContainerItem(FirestoneLocation[1], FirestoneLocation[2]);
+			end
 		end
 	-- Si on clic sur le bouton de monture
 	elseif (type == "Mount") then

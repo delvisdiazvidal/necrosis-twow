@@ -23,25 +23,22 @@
 
 function Necrosis_Initialize()
 	
-	-- Necrosis_Localization_Dialog_En()
-	-- Initilialisation des Textes (VO / VF / VA)
-	if NecrosisConfig ~= {} then
-		if (NecrosisConfig.NecrosisLanguage == "enUS") or (NecrosisConfig.NecrosisLanguage == "enGB") then
-			Necrosis_Localization_Dialog_En();
-		elseif (NecrosisConfig.NecrosisLanguage == "esES") then
-			Necrosis_Localization_Dialog_Es();
-		elseif (NecrosisConfig.NecrosisLanguage == "deDE") then
-			Necrosis_Localization_Dialog_De();
-		else
-			Necrosis_Localization_Dialog_Fr();
-		end
-	elseif GetLocale() == "enUS" or GetLocale() == "enGB" then
+
+	if GetLocale() == "enUS" or GetLocale() == "enGB" then
 		Necrosis_Localization_Dialog_En();
-	elseif GetLocale() == "esEs" then
-		Necrosis_Localization_Dialog_Es();
+		NecrosisConfig.NecrosisLanguage = "enUS";
+		Necrosis_Localization_Dialog_En();
 	elseif GetLocale() == "deDE" then
 		Necrosis_Localization_Dialog_De();
+		NecrosisConfig.NecrosisLanguage = "deDE";
+		Necrosis_Localization_Dialog_De();
+	elseif GetLocale() == "esES" then
+		Necrosis_Localization_Dialog_Es();
+		NecrosisConfig.NecrosisLanguage = "esES";
+		Necrosis_Localization_Dialog_Es();
 	else
+		Necrosis_Localization_Dialog_Fr();
+		NecrosisConfig.NecrosisLanguage = "frFR";
 		Necrosis_Localization_Dialog_Fr();
 	end
 
@@ -133,14 +130,17 @@ function Necrosis_Initialize()
 		NecrosisButtonRotate_Slider:SetValue(NecrosisConfig.NecrosisAngle);
 		NecrosisButtonRotate_SliderLow:SetText("0");
 		NecrosisButtonRotate_SliderHigh:SetText("360");
-		
+
 		if NecrosisConfig.NecrosisLanguage == "deDE" then
-			NecrosisLanguage_Slider:SetValue(3);
+			NecrosisLanguage_Slider:SetValue(4);
 		elseif NecrosisConfig.NecrosisLanguage == "enUS" then
 			NecrosisLanguage_Slider:SetValue(2);
+		elseif NecrosisConfig.NecrosisLanguage == "esES" then
+			NecrosisLanguage_Slider:SetValue(3);
 		else
 			NecrosisLanguage_Slider:SetValue(1);
 		end
+
 		NecrosisLanguage_SliderText:SetText("Langue / Language / Español / Sprache");
 		NecrosisLanguage_SliderLow:SetText("");
 		NecrosisLanguage_SliderHigh:SetText("")

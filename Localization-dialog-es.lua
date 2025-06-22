@@ -54,7 +54,7 @@ function Necrosis_Localization_Dialog_Es()
             ["NoCurrentDemon"] = "Demonio: Ninguno",
 		},
 		["Soulstone"] = {
-            Label = "|c00FF99FFPiedra de Slma|r",
+            Label = "|c00FF99FFPiedra de Alma|r",
             Text = {"Crear","Usar","Usada","En espera"}
         },
         ["Healthstone"] = {
@@ -63,11 +63,11 @@ function Necrosis_Localization_Dialog_Es()
         },
         ["Spellstone"] = {
             Label = "|c0099CCFFPiedra de Hechizo|r",
-            Text = {"Crear","En Inventario","Sostenida en mano"}
+            Text = {"Crear","Usar", "Sostenida en mano"}
         },
         ["Firestone"] = {
             Label = "|c00FF4444Piedra de Fuego|r",
-            Text = {"Crear","Usar"}
+            Text = {"Crear","Usar", "Sostenida en mano"}
         },
         ["Felstone"] = {
             Label = "|c00FF4444Piedra Vil|r",
@@ -80,7 +80,7 @@ function Necrosis_Localization_Dialog_Es()
         ["SpellTimer"] = {
             Label = "|c00FFFFFFDuración de hechizos|r",
             Text = "Hechizos activos en el objetivo",
-            Right = "Clic derecho para usar la Piedra de Hogar"
+            Right = "Clic derecho para usar la Piedra de Hogar a "
         },
         ["ShadowTrance"] = {
             Label = "|c00FFFFFFTrance de las Sombras|r"
@@ -119,7 +119,7 @@ function Necrosis_Localization_Dialog_Es()
             Label = "|c00FFFFFFCaminante del Vacío|r"
         },
         ["Succubus"] = {
-            Label = "|c00FFFFFFSúcubo|r"
+            Label = "|c00FFFFFFSuccubus|r"
         },
         ["Fel"] = {
             Label = "|c00FFFFFFManáfago|r"
@@ -193,7 +193,7 @@ function Necrosis_Localization_Dialog_Es()
     };
 
     NECROSIS_NIGHTFALL_TEXT = {
-        ["NoBoltSpell"] = "Parece que no tienes ningún hechizo de Descarga de las Sombras.",
+        ["NoBoltSpell"] = "Parece que no tienes ningún hechizo de Rayo de Sombras.",
         ["Message"] = "<white>T<lightPurple1>r<lightPurple2>a<purple>n<darkPurple1>c<darkPurple2>e d<darkPurple1>e l<purple>a<lightPurple2>s S<lightPurple1>o<white>mbras"
     };
 
@@ -285,10 +285,10 @@ function Necrosis_Localization_Dialog_Es()
         ["ButtonLock"] = "Bloquear botones alrededor de la esfera",
         ["MainLock"] = "Bloquear botones y esfera de Necrosis",
         ["BagSelect"] = "Selección de contenedor de fragmentos de alma",
-        ["BuffMenu"] = "Colocar el menú de beneficios a la izquierda",
-        ["PetMenu"] = "Colocar el menú de demonios a la izquierda",
-        ["CurseMenu"] = "Colocar el menú de maldiciones a la izquierda",
-        ["StoneMenu"] = "Colocar el menú de piedras a la izquierda",
+        ["BuffMenu"] = "Colocar el Menú de Hechizos a la izquierda",
+        ["PetMenu"] = "Colocar el Menú de Demonios a la izquierda",
+        ["CurseMenu"] = "Colocar el Menú de Maldiciones a la izquierda",
+        ["StoneMenu"] = "Colocar el Menú de piedras a la izquierda",
         ["STimerLeft"] = "Temporizadores al lado izquierdo del botón",
         ["ShowCount"] = "Mostrar número de Fragmentos en Necrosis",
         ["CountType"] = "Tipo de Piedra que se contabiliza",

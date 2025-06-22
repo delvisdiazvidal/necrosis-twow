@@ -61,15 +61,15 @@ NECROSIS_SPELL_TABLE = {
 	[2] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil, 
 		Name = "Invocar Corcel Temible",		Length = 0,	Type = 0},
 	[3] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
-		Name = "Invocar Diablo",			Length = 0,	Type = 0},
+		Name = "Invocar Diablo Menor",			Length = 0,	Type = 0},
 	[4] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
 		Name = "Invocar Caminante del Vacío",			Length = 0,	Type = 0},
 	[5] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
-		Name = "Invocar Súcubo",			Length = 0,	Type = 0},
+		Name = "Invocar Succubus",			Length = 0,	Type = 0},
 	[6] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
 		Name = "Invocar Manáfago",			Length = 0,	Type = 0},
 	[7] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
-		Name = "Descarga de las Sombras",		Length = 0,	Type = 0},
+		Name = "Rayo de Sombra",		Length = 0,	Type = 0},
 	[8] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
 		Name = "Infierno",				Length = 300,	Type = 3},
 	[9] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
@@ -179,7 +179,7 @@ NECROSIS_STONE_RANK = {
 };
 
 NECROSIS_NIGHTFALL = {
-	["BoltName"] = "Descarga",
+	["BoltName"] = "Rayo de Sombra",
 	["ShadowTrance"] = "Trance de las Sombras"
 };
 
@@ -193,9 +193,9 @@ NECROSIS_CREATE = {
 };
 
 NECROSIS_PET_LOCAL_NAME = {
-	[1] = "Diablo",
-	[2] = "Abisario",
-	[3] = "Súcubo",
+	[1] = "Diablo Menor",
+	[2] = "Caminante del Vacío",
+	[3] = "Succubus",
 	[4] = "Manáfago",
 	[5] = "Infernal",
 	[6] = "Guardia apocalíptico"
@@ -203,14 +203,14 @@ NECROSIS_PET_LOCAL_NAME = {
 
 NECROSIS_TRANSLATION = {
 	["Cooldown"] = "Tiempo de reutilización",
-	["Hearth"] = "Piedra de hogar",
+	["Hearth"] = "Piedra de Hogar",
 	["Rank"] = "Rango",
 	["Invisible"] = "Detectar Invisibilidad",
 	["LesserInvisible"] = "Detectar Invisibilidad Inferior",
 	["GreaterInvisible"] = "Detectar Gran Invisibilidad",
 	["SoulLinkGain"] = "Has obtenido Enlace de Alma.",
 	["SacrificeGain"] = "Has obtenido Sacrificio.",
-	["SummoningRitual"] = "Ritual de invocación"
+	["SummoningRitual"] = "Ritual de Invocación"
 };
 
 end
