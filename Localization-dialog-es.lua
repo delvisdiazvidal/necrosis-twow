@@ -89,7 +89,7 @@ function Necrosis_Localization_Dialog_Es()
             Label = "|c00FFFFFFDominio Vil|r"
         },
         ["Enslave"] = {
-            Label = "|c00FFFFFFEsclavizar demonio|r"
+            Label = "|c00FFFFFFEsclavizar Demonio|r"
         },
         ["Armor"] = {
             Label = "|c00FFFFFFArmadura Demoníaca|r"
@@ -113,7 +113,7 @@ function Necrosis_Localization_Dialog_Es()
             Label = "|c00FFFFFFResguardo de las Sombras|r"
         },
         ["Imp"] = {
-            Label = "|c00FFFFFFDiablo|r"
+            Label = "|c00FFFFFFDiablo Menor|r"
         },
         ["Void"] = {
             Label = "|c00FFFFFFCaminante del Vacío|r"
@@ -143,7 +143,7 @@ function Necrosis_Localization_Dialog_Es()
             Label = "|c00FFFFFFMaldición de Agonía|r"
         },
         ["Reckless"] = {
-            Label = "|c00FFFFFFMaldición de Temeridad|r"
+            Label = "|c00FFFFFFMaldición de Imprudencia|r"
         },
         ["Tongues"] = {
             Label = "|c00FFFFFFMaldición de Lenguas|r"
