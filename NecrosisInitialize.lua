@@ -25,19 +25,15 @@ function Necrosis_Initialize()
 	
 
 	if GetLocale() == "enUS" or GetLocale() == "enGB" then
-		Necrosis_Localization_Dialog_En();
 		NecrosisConfig.NecrosisLanguage = "enUS";
 		Necrosis_Localization_Dialog_En();
 	elseif GetLocale() == "deDE" then
-		Necrosis_Localization_Dialog_De();
 		NecrosisConfig.NecrosisLanguage = "deDE";
 		Necrosis_Localization_Dialog_De();
 	elseif GetLocale() == "esES" then
-		Necrosis_Localization_Dialog_Es();
 		NecrosisConfig.NecrosisLanguage = "esES";
 		Necrosis_Localization_Dialog_Es();
 	else
-		Necrosis_Localization_Dialog_Fr();
 		NecrosisConfig.NecrosisLanguage = "frFR";
 		Necrosis_Localization_Dialog_Fr();
 	end

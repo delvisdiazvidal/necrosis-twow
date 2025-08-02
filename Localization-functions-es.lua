@@ -57,7 +57,7 @@ NECROSIS_ANTI_FEAR_SRCH = "Tu (.+) ha fallado. (.+) es inmune."
 
 NECROSIS_SPELL_TABLE = {
 	[1] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
-		Name = "Invocar Corcel Vil",		Length = 0,	Type = 0},
+		Name = "Invocar Corcel Infernal",		Length = 0,	Type = 0},
 	[2] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil, 
 		Name = "Invocar Corcel Temible",		Length = 0,	Type = 0},
 	[3] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
@@ -67,7 +67,7 @@ NECROSIS_SPELL_TABLE = {
 	[5] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
 		Name = "Invocar Succubus",			Length = 0,	Type = 0},
 	[6] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
-		Name = "Invocar Manáfago",			Length = 0,	Type = 0},
+		Name = "Invocar Felhunter",			Length = 0,	Type = 0},
 	[7] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
 		Name = "Rayo de Sombra",		Length = 0,	Type = 0},
 	[8] = {ID = nil, Rank = nil, CastTime = nil, Mana = nil,
@@ -160,7 +160,7 @@ NECROSIS_ITEM = {
 	["Healthstone"] 	= "Piedra de Salud",
 	["Spellstone"] 		= "Piedra de Hechizo",
 	["Firestone"] 		= "Piedra de Fuego",
-	["Felstone"] 		= "Piedra Vil",
+	["Felstone"] 		= "Piedra Demoníaca",
 	["Wrathstone"] 		= "Piedra de Ira",
 	["Offhand"] 		= "Mano Secundaria",
 	["Twohand"] 		= "Dos Manos",
@@ -188,7 +188,7 @@ NECROSIS_CREATE = {
 	[2] = "Crear Piedra de Salud",
 	[3] = "Crear Piedra de Hechizo",
 	[4] = "Crear Piedra de Fuego",
-	[5] = "Crear Piedra Vil",
+	[5] = "Crear Piedra Demoníaca",
 	[6] = "Crear Piedra de Ira"
 };
 
@@ -196,7 +196,7 @@ NECROSIS_PET_LOCAL_NAME = {
 	[1] = "Diablo Menor",
 	[2] = "Caminante del Vacío",
 	[3] = "Succubus",
-	[4] = "Manáfago",
+	[4] = "Felhunter",
 	[5] = "Infernal",
 	[6] = "Guardia apocalíptico"
 };

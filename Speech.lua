@@ -239,10 +239,13 @@ function Necrosis_Localization_Speech_Es()
 				"Ven a mí, <pet>... Tu látigo y tus gemidos me serán útiles otra vez.",
 			},
 		};
-		-- Manáfago
+		-- Felhunter
 		[4] = {
 			[1] = {
 				"<pet>... <pet>... Que la magia corrupta te guíe a mi lado. ¡VEN!",
+			},
+			[2] = {
+				"Es tu hora, perro del demonio ¡<pet>! ¡Cazalos a todos!",
 			},
 		};
 		-- Demonio desconocido (invocaciones iniciales)

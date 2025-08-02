@@ -47,7 +47,7 @@ function Necrosis_Localization_Dialog_Es()
             ["Healthstone"] = "Piedra de Salud: ",
             ["Spellstone"] = "Piedra de Hechizo: ",
             ["Firestone"] = "Piedra de Fuego: ",
-            ["Felstone"] = "Piedra Vil: ",
+            ["Felstone"] = "Piedra Demoníaca: ",
             ["Wrathstone"] = "Piedra de Ira: ",
             ["CurrentDemon"] = "Demonio: ",
             ["EnslavedDemon"] = "Demonio: Esclavizado",
@@ -63,14 +63,14 @@ function Necrosis_Localization_Dialog_Es()
         },
         ["Spellstone"] = {
             Label = "|c0099CCFFPiedra de Hechizo|r",
-            Text = {"Crear","Usar", "Sostenida en mano"}
+            Text = {"Crear","Usar"}
         },
         ["Firestone"] = {
             Label = "|c00FF4444Piedra de Fuego|r",
-            Text = {"Crear","Usar", "Sostenida en mano"}
+            Text = {"Crear","Usar"}
         },
         ["Felstone"] = {
-            Label = "|c00FF4444Piedra Vil|r",
+            Label = "|c00FF4444Piedra Demoníaca|r",
             Text = {"Crear","Usar"}
         },
         ["Wrathstone"] = {
@@ -122,7 +122,7 @@ function Necrosis_Localization_Dialog_Es()
             Label = "|c00FFFFFFSuccubus|r"
         },
         ["Fel"] = {
-            Label = "|c00FFFFFFManáfago|r"
+            Label = "|c00FFFFFFFelhunter|r"
         },
         ["Infernal"] = {
             Label = "|c00FFFFFFInfernal|r"
@@ -304,7 +304,7 @@ function Necrosis_Localization_Dialog_Es()
         ["Skin"] = "Apariencia de la esfera de Necrosis",
         ["Show"] = {
             ["Firestone"] = "Mostrar botón de Piedra de Fuego",
-            ["Felstone"] = "Mostrar botón de Piedra Vil",
+            ["Felstone"] = "Mostrar botón de Piedra Demoníaca",
             ["Wrathstone"] = "Mostrar botón de Piedra de Ira",
             ["Spellstone"] = "Mostrar botón de Piedra de Hechizo",
             ["Healthstone"] = "Mostrar botón de Piedra de Salud",
