@@ -174,8 +174,8 @@ NECROSIS_STONE_RANK = {
 	[1] = " (Menor)",	-- Rango Menor
 	[2] = " (Inferior)",	-- Rango Inferior
 	[3] = "",		-- Rango Intermedio, sin nombre
-	[4] = " (Superior)",	-- Rango Superior
-	[5] = " (Mayor)"	-- Rango Mayor
+	[4] = " (Mayor)",	-- Rango Mayor
+	[5] = " (Gran Mayor)"	-- Rango Gran Mayor
 };
 
 NECROSIS_NIGHTFALL = {
